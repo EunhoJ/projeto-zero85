@@ -14,10 +14,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #999999;
-}
-
 header {
     color: grey;
     height: 30rem;
