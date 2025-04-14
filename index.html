@@ -1,121 +1,176 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desafio #1</title>
+        <!-- CSS Externo -->
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desafio #1</title>
-    <!-- CSS Externo -->
-    <link rel="stylesheet" href="./css/style.css" />
-</head>
+    <body>
+        <!-- Menu de opções -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+            </ul>
+        </nav>
 
-<body>
-    <!-- Menu de opções -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#produtos">Produtos</a></li>
-            <!-- <ul>
-                    <li><a href="games.html"></a>Games</li>
-                    <li><a href="consoles.html"></a>Consoles</li>
-                    <li><a href="acessorios.html"></a>Acessorios</li>
-                    <li><a href="giftcards.html"></a>Gift Cards</li>
-                </ul> -->
-            <li><a href="#contato">Contato</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#mapa">Mapa</a></li>
-        </ul>
-    </nav>
+        <header>
+            <h1>Zero85</h1>
+            <h2>GAMES</h2>
+            <div class="cover"></div>
+        </header>
 
-    <header>
-        <h1>Zero85</h1>
-        <h2>GAMES</h2>
-        <div class="cover"></div>
-    </header>
-
-    <main>
-        <!-- Bem-vindo(a) -->
-        <h1>Bem vindo(a) ao meu site!</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-            modi obcaecati repellat quaerat consequatur eaque rem reiciendis
-            sunt saepe exercitationem.
-        </p>
-
-        <!-- Contato -->
-        <section id="contato">
-            <h2>Entre em Contato</h2>
-            <form action="#" method="POST" class="formulario">
-              <div class="linha-form">
-                <div class="campo">
-                  <label for="nome">Nome:</label>
-                  <input type="text" id="nome" name="nome"/>
-                </div>
-                <div class="campo">
-                  <label for="telefone">Telefone:</label>
-                  <input type="tel" id="telefone" name="telefone"/>
-                </div>
-              </div>
-          
-              <div class="linha-form">
-                <div class="campo">
-                  <label for="email">E-mail:</label>
-                  <input type="email" id="email" name="email"/>
-                </div>
-                <div class="campo">
-                  <label for="assunto">Assunto:</label>
-                  <input type="text" id="assunto" name="assunto"/>
-                </div>
-              </div>
-          
-              <div class="mensagem-campo">
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="6"></textarea>
-              </div>
-          
-              <button type="submit" class="btn-enviar">Enviar</button>
-            </form>
-          </section>
-
-        <!-- Sobre -->
-        <section id="sobre">
-            <h1>Sobre a Empresa</h1>
+        <main>
+            <!-- Bem-vindo(a) -->
+            <h1>Bem vindo(a) ao meu site!</h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusamus repudiandae similique sint perferendis eligendi ut
-                quisquam. Ex aliquid, nisi, non quasi cumque quis eos enim
-                repellendus in tempore fugit dolores.
+                Corrupti sit repudiandae ab velit nostrum omnis illum iusto
+                ipsam sapiente, accusantium inventore corporis, magnam nobis?
+                Optio reprehenderit ipsa doloremque eligendi? Hic aspernatur
+                molestias ratione minus illum placeat qui voluptas corporis quis
+                numquam? Deleniti eveniet modi vel, voluptates enim sit eius
+                velit unde a cupiditate! Omnis est minus, libero molestias,
+                possimus quam repudiandae, laboriosam voluptatibus voluptas
+                suscipit aut? Dolorum fugiat laboriosam aut ipsum aperiam! Ex,
+                corporis. Quo, debitis! Doloremque ad consequatur sint
+                perferendis molestias eum beatae quo repellendus, harum eos
+                architecto eius tenetur ratione earum libero, omnis optio
+                repellat rem quibusdam? Impedit libero sed, explicabo
+                reprehenderit atque facere ducimus doloribus fuga laudantium
+                voluptatibus consectetur culpa eius architecto voluptatum vero
+                reiciendis iste, ipsa rerum minus expedita accusamus alias?
+                Facilis voluptatem dicta harum officia! Eligendi officia facilis
+                architecto doloribus eius laborum reprehenderit placeat
+                molestiae provident vitae perspiciatis atque similique ullam non
+                quae, velit, ab rerum! Atque a libero quia, laborum numquam
+                corrupti hic, ab praesentium magnam exercitationem velit sint
+                architecto est, cum similique ex excepturi illo rem odio sit
+                tempore labore quos. Est neque animi vero pariatur, impedit
+                dolor optio in magni adipisci corrupti! Ducimus pariatur impedit
+                sunt dignissimos magni aliquam rem alias earum?
             </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nulla, incidunt?
-            </p>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Quo itaque facere deleniti vero labore, dignissimos nobis
-                placeat sint maxime nulla quasi alias odit sunt amet fugit
-                numquam quibusdam similique suscipit!
-            </p>
-        </section>
 
-        <!-- Mapa -->
-        <section id="mapa">
-            <h1>Nossa Localização</h1>
+            <!-- Contato -->
+            <section id="contato">
+                <form action="#" method="post">
+                    <legend><h2>Entre em contato conosco:</h2></legend>
+                    <fieldset>
+                        <div class="group">
+                            <div class="block">
+                                <input
+                                    type="text"
+                                    id="nome"
+                                    name="nome"
+                                    placeholder="Nome"
+                                    required
+                                />
+                                <input
+                                    type="tel"
+                                    id="telefone"
+                                    name="telefone"
+                                    placeholder="Telefone"
+                                    required
+                                />
+                            </div>
+                            <div class="block">
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="E-mail"
+                                    required
+                                />
+                                <input
+                                    type="text"
+                                    id="assunto"
+                                    name="assunto"
+                                    placeholder="Assunto"
+                                />
+                            </div>
+                        </div>
 
-            <!-- Localização no Google Maps -->
-            <div class="mapa">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.1018124838647!2d-38.48305012647768!3d-3.7880127434752744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7458b85fffbc1%3A0x6235bbed04f25cdf!2sCONDOM%C3%8DNIO%20WSTC!5e0!3m2!1spt-BR!2sbr!4v1744399937934!5m2!1spt-BR!2sbr"
-                    style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="5"
+                            placeholder="Deixe sua mensagem"
+                            required
+                        ></textarea>
+                        <button type="submit" class="btn-enviar">
+                            Enviar Mensagem
+                        </button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- Sobre -->
+            <section id="sobre">
+                <h1>Sobre a Empresa</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusantium fuga magnam reprehenderit, cupiditate, laborum,
+                    atque doloribus id itaque laboriosam similique quae. Harum
+                    mollitia quibusdam, cum aliquam velit nostrum unde? Magnam
+                    commodi in saepe! Architecto laborum odit placeat. Quam
+                    dignissimos ipsam quas ipsa aperiam laborum et quisquam
+                    laudantium magnam dolore, provident eveniet, porro culpa.
+                    Itaque, quod odit. Aliquam iste ducimus inventore,
+                    aspernatur maxime sapiente, labore perspiciatis, debitis
+                    magnam minima deserunt nostrum optio totam voluptatem
+                    obcaecati! Maiores illo odio magni quo corrupti debitis
+                    optio tempora nam ipsa, non, quae dolore vero temporibus
+                    explicabo ab iusto fugit natus! Voluptatem sed quod neque
+                    cum nobis doloribus quam nulla deserunt blanditiis vel qui
+                    enim itaque est ducimus voluptate, fuga tempore totam
+                    eligendi, exercitationem maiores veniam error natus culpa
+                    eveniet! Distinctio voluptatem consectetur ducimus nam, sunt
+                    ut nobis qui necessitatibus explicabo nulla quos corporis
+                    vitae autem dolores dignissimos delectus voluptas cupiditate
+                    alias! Aut nostrum numquam eum quaerat animi pariatur
+                    temporibus impedit nam, iste accusamus cupiditate nihil
+                    provident quam in et soluta dicta quia adipisci odio earum?
+                    Ea maxime omnis beatae, at optio vel? Consequuntur molestiae
+                    veritatis, placeat numquam debitis delectus excepturi
+                    aliquam consequatur distinctio eius fugit suscipit iusto
+                    repellat beatae voluptates facere laboriosam? Quia,
+                    molestiae facilis.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora nobis neque hic dolore officia minus aperiam
+                    aspernatur beatae reiciendis voluptates, itaque, laboriosam
+                    eligendi consequuntur excepturi modi ex aliquid! Atque, hic.
+                </p>
+            </section>
+
+            <!-- Mapa -->
+            <section id="mapa">
+                <h1>Nossa Localização</h1>
+
+                <!-- Localização no Google Maps -->
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.1018124838647!2d-38.48305012647768!3d-3.7880127434752744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7458b85fffbc1%3A0x6235bbed04f25cdf!2sCONDOM%C3%8DNIO%20WSTC!5e0!3m2!1spt-BR!2sbr!4v1744399937934!5m2!1spt-BR!2sbr"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    >
                     </iframe>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div>Empresa</div>
-        <div>Parcerias</div>
-        <div>Redes Sociais</div>
-    </footer>
-</body>
-
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>Empresa</div>
+            <div>Parcerias</div>
+            <div>Redes Sociais</div>
+        </footer>
+    </body>
 </html>
