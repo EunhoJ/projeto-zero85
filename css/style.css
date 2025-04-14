@@ -136,63 +136,72 @@ footer div {
     border: solid yellow;
 }
 
-form {
-    max-width: 37.5rem;
+.contato {
+    max-width: 900px;
     margin: 0 auto;
-    padding: 2rem;
-    background-color: #f9f9f9;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-fieldset {
-    border: none;
-    padding: 0;
-    margin: 0;
-}
-
-legend {
-    font-size: 1.5 rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    color: #333;
-}
-
-label {
-    display: block;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    padding: 40px 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #f9f9f9; /* ou a cor usada no site */
+  }
+  
+  .form-container h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #f9f9f9;
+  }
+  
+  .formulario .linha-form {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .formulario .campo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario label {
     font-weight: 600;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 0.8rem;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .formulario input,
+  .formulario textarea {
+    padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 0.25rem;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
-
-input:focus,
-textarea:focus {
-    border-color: #007bff;
-    outline: none;
-}
-
-button {
-    margin-top: 1.5rem;
-    padding: 0.8rem 2rem;
-    background-color: #007bff;
-    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #fff;
+  }
+  
+  .mensagem-campo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mensagem-campo textarea {
+    resize: vertical;
+    width: 100%;
+  }
+  
+  .btn-enviar {
+    background-color: #c22828;
+    color: #fff;
+    padding: 12px 24px;
     border: none;
-    font-size: 1rem;
-    border-radius: 0.25rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
+    transition: background 0.3s ease;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #a31f1f;
+  }
